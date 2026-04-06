@@ -1,46 +1,65 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
     margin: 0;
-    background: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
+    padding: 0;
     text-align: center;
-    padding: 20px;
 }
 
-nav {
-    background: #555;
-    text-align: center;
-    padding: 10px;
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+h1 {
+    margin: 0;
+    font-size: 28px;
 }
 
-section {
-    padding: 20px;
+p {
+    color: #555;
+}
+
+.about, .projects, .social {
+    margin-top: 30px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .project {
-    background: white;
+    background-color: #e7f0ff;
     padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-align: left;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #333;
+.social a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
     color: white;
+    background-color: #007bff;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.social a:hover {
+    background-color: #0056b3;
 }
