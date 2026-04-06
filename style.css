@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 700px;
     margin: 50px auto;
-    background-color: white;
+    background-color: black;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -43,7 +43,7 @@ p {
 }
 
 .project {
-    background-color: #e7f0ff;
+    background-color: grey;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -61,5 +61,5 @@ p {
 }
 
 .social a:hover {
-    background-color: #0056b3;
+    background-color: black;
 }
