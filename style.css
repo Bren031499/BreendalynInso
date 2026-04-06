@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: skyblue;
+    background-color: white;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -9,7 +9,7 @@ body {
 .container {
     max-width: 700px;
     margin: 50px auto;
-    background-color: grey;
+    background-color: skyblue;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
