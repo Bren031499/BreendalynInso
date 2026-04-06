@@ -43,7 +43,7 @@ p {
 }
 
 .project {
-    background-color: grey;
+    background-color: light green;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -61,5 +61,5 @@ p {
 }
 
 .social a:hover {
-    background-color: skyblue;
+    background-color: white;
 }
